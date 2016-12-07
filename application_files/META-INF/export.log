@@ -1,0 +1,136 @@
+Success (5):
+content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 "Automated Deployments"
+content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 "POC_AD_1_CONS"
+processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 "Automated Deployments"
+processModel 902 0002de04-8987-8000-f92f-7f0000014e7a "POC Process for Demo"
+application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 "MySpace-Naveen"
+
+Referenced precedents that were not exported (1):
+user naveen.panchumarthi@wipro.com naveen.panchumarthi@wipro.com
+
+Trace:
+2016-12-07 08:25:20.973 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Begin transport.
+2016-12-07 08:25:20.973 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Retrieving object data.
+2016-12-07 08:25:20.977 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 App associated objects: [content=[_a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301, _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300],processModelFolder=[_g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67],processModel=[0002de04-8987-8000-f92f-7f0000014e7a]]
+2016-12-07 08:25:20.982 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Invalid associated objects: []
+2016-12-07 08:25:20.982 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Adding valid associated objects to be exported: GlobalBindingMap[content={_a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301=19044, _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300=18958},processModelFolder={_g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67=58},processModel={0002de04-8987-8000-f92f-7f0000014e7a=902}]
+2016-12-07 08:25:20.983 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Setting uuids of object references.
+2016-12-07 08:25:20.983 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: Application.forum
+2016-12-07 08:25:20.983 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: Application.parent
+2016-12-07 08:25:20.987 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@cba0f31[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[naveen.panchumarthi@wipro.com],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-12-07 08:25:20.987 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-12-07 08:25:20.987 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-12-07 08:25:20.987 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: ContentRole[name=administrators,usernames=[naveen.panchumarthi@wipro.com],inherit=false,allowForAll=false]
+2016-12-07 08:25:20.988 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-12-07 08:25:20.988 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-12-07 08:25:20.988 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-12-07 08:25:20.991 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Begin transport.
+2016-12-07 08:25:20.991 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Retrieving object data.
+2016-12-07 08:25:20.999 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Setting uuids of object references.
+2016-12-07 08:25:20.999 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: [Content:id=19007,versionId=-1,name=POC_AD_1_CONS,description=Sample constant for POC purpose,type=32,subtype=0,uuid=_a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301,parent=18958,parentName=Automated Deployments,parentType=2,log=19044,logName=POC_AD_1_CONS,state=255,visibility=35,security=143,creator=naveen.panchumarthi@wipro.com,createdTimestamp=2016-11-23 10:35:53.0,updatedTimestamp=2016-11-23 10:35:53.0,size=0,lockedBy=ANONYMOUS,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=12, returnType=1},partition=1,partitionName=/usr/local/appian/ae/_admin/accdocs1]
+2016-12-07 08:25:20.999 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: Constant.forum
+2016-12-07 08:25:21.0 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: Constant.parent
+2016-12-07 08:25:21.003 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Begin transport.
+2016-12-07 08:25:21.003 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Retrieving object data.
+2016-12-07 08:25:21.01 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Setting uuids of object references.
+2016-12-07 08:25:21.01 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: RulesFolder.forum
+2016-12-07 08:25:21.01 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: RulesFolder.parent
+2016-12-07 08:25:21.014 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@3efa953d[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,usernames=[naveen.panchumarthi@wipro.com],inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=143:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-12-07 08:25:21.014 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-12-07 08:25:21.014 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-12-07 08:25:21.014 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: ContentRole[name=administrators,usernames=[naveen.panchumarthi@wipro.com],inherit=true,allowForAll=false]
+2016-12-07 08:25:21.015 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-12-07 08:25:21.015 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-12-07 08:25:21.015 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-12-07 08:25:21.015 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Exporting binary resources.
+2016-12-07 08:25:21.015 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Serializing object to XML.
+2016-12-07 08:25:21.023 DEBUG content 18958 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19300 Object transported.
+2016-12-07 08:25:21.024 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@3d3bc745[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,usernames=[naveen.panchumarthi@wipro.com],inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=143:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-12-07 08:25:21.024 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-12-07 08:25:21.024 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-12-07 08:25:21.024 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: ContentRole[name=administrators,usernames=[naveen.panchumarthi@wipro.com],inherit=true,allowForAll=false]
+2016-12-07 08:25:21.027 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-12-07 08:25:21.027 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-12-07 08:25:21.027 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-12-07 08:25:21.027 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Exporting binary resources.
+2016-12-07 08:25:21.027 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Serializing object to XML.
+2016-12-07 08:25:21.042 DEBUG content 19044 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19301 Object transported.
+2016-12-07 08:25:21.045 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Begin transport.
+2016-12-07 08:25:21.045 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Retrieving object data.
+2016-12-07 08:25:21.05 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Setting uuids of object references.
+2016-12-07 08:25:21.05 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: ProcessModelFolder.parentFolderId
+2016-12-07 08:25:21.05 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@4a8fd550[
+  Role[name=ADMIN_OWNER]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: Role[name=ADMIN_OWNER]
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: Role[name=EDITOR]
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: Role[name=VIEWER]
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: Role[name=MANAGER]
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Processing reference: Role[name=INITIATOR]
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Exporting binary resources.
+2016-12-07 08:25:21.051 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Serializing object to XML.
+2016-12-07 08:25:21.063 DEBUG processModelFolder 58 _g-0000dddc-b5ca-8000-f92f-7f0000014e7a_67 Object transported.
+2016-12-07 08:25:21.065 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Begin transport.
+2016-12-07 08:25:21.065 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Retrieving object data.
+2016-12-07 08:25:21.085 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Setting uuids of object references.
+2016-12-07 08:25:21.085 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.folderId
+2016-12-07 08:25:21.087 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.modelDashboardPageId
+2016-12-07 08:25:21.087 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.processDashboardPageId
+2016-12-07 08:25:21.087 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ProcessModel.emailAttachmentFolderId
+2016-12-07 08:25:21.088 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2016-12-07 08:25:21.088 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2016-12-07 08:25:21.088 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2016-12-07 08:25:21.088 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2016-12-07 08:25:21.088 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2016-12-07 08:25:21.088 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2016-12-07 08:25:21.088 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@44444e[
+  Role[name=ADMIN_OWNER]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: Role[name=ADMIN_OWNER]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: Role[name=EDITOR]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: Role[name=VIEWER]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: Role[name=MANAGER]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Processing reference: Role[name=INITIATOR]
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Exporting binary resources.
+2016-12-07 08:25:21.089 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Serializing object to XML.
+2016-12-07 08:25:21.102 DEBUG processModel 902 0002de04-8987-8000-f92f-7f0000014e7a Object transported.
+2016-12-07 08:25:21.102 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Exporting binary resources.
+2016-12-07 08:25:21.102 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Serializing object to XML.
+2016-12-07 08:25:21.115 DEBUG application 18710 _a-0000dddc-b5ca-8000-9ba2-011c48011c48_19299 Object transported.
